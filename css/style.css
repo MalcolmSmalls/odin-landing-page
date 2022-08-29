@@ -29,8 +29,14 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+.header {
+  padding-top:20px;
+  display:flex;
+  justify-content:space-around;
+  background-color: #1F2937;
+  color:#F9FAF8;
+  align-items:center;
+  padding-bottom:80px;
 }
 
 footer {
@@ -40,3 +46,20 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+ul {
+  margin:0;
+  padding:0;
+  display:flex;
+  gap:30px;
+}
+
+li{
+  list-style:none;
+
+}
+
+.header-logo{
+  margin:0;
+  font-size:24px;
+}
