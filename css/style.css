@@ -120,4 +120,13 @@ li{
   background-color: #3882F6;
   color: #F9FAF8;
   font-weight:bold;
+  margin-left:-2px;
+}
+
+.mid h2 {
+  margin-top:60px;
+  text-align:center;
+  font-size:36px;
+  font-weight:900;
+  color:#1F2937;
 }
