@@ -58,6 +58,20 @@ body {
   width:100%;
 }
 
+.container-mid{
+  display:flex;
+  justify-content:center;
+  gap:50px; 
+}
+
+.items{
+  flex-grow:0;
+}
+
+/* .items{
+  display:flex;
+  flex-direction:column;
+} */
 
 
 footer {
@@ -113,7 +127,17 @@ li{
   object-position:top;
 }
 
+.container-mid img {
+  width:200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:20px;
+}
 
+.container-mid p {
+  width:200px;
+  text-align:center;
+}
 .hero-btn {
   padding:8px 30px;
   border-radius:10px;
