@@ -81,7 +81,13 @@ body {
 
 
 footer {
-
+  display:flex;
+  justify-content:center;
+  background-color:#1F2937;
+  color:#E5E7EB;
+  padding:50px;
+  font-size:18px;
+  flex:1;
 }
 
 /******************************************
@@ -145,13 +151,18 @@ li{
   text-align:center;
   margin-top:5px;
 }
-.hero-btn {
+.hero-btn, .btn-bottom {
   padding:8px 30px;
   border-radius:10px;
   background-color: #3882F6;
   color: #F9FAF8;
   font-weight:bold;
   margin-left:-2px;
+}
+
+.btn-bottom{
+  border-color:white;
+  border-style:solid;
 }
 
 .mid h2 {
